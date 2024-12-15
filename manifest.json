@@ -1,0 +1,40 @@
+{
+ "format_version": 2,
+	"metadata": {
+		"authors": [
+			"@MY7901"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.42"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+    "header": {
+        "name": "§l§gOP Loot by Villager 配布版§r§f",
+        "description": "§lVer.1.2.1§r§f\n§l§6村人が最強アイテムをドロップします。§r§f\n§l§aCreated by @MY7901 for YouTube§r§f",
+        "uuid": "d4cda9b0-bdbb-40de-b40b-4ef0975bb501",
+        "version": [1, 2, 1],
+        "min_engine_version": [ 1, 21, 50 ]
+    },
+    "modules": [
+        {
+            "description": "OP Loot by Villager 配布版 modules",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "93fce746-cbdc-42bf-bea6-b847d10b8a14",
+            "entry": "scripts/main.js",
+            "version": [1, 2, 1]
+        }
+    ],
+    "capabilities": [ "script_eval" ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.16.0"
+        }
+    ]
+}
