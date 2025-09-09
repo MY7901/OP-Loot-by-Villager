@@ -438,14 +438,14 @@ world.afterEvents.entityDie.subscribe((eventData) => {
                         system.runTimeout(() => {
                             targetPlayer.sendMessage(`村人から§l§d${bowOrSwordItemName}§r§fがドロップしました。`);
                             console.log(`Sent bow or sword drop message to ${targetPlayer.name}`);
-                            dimension.runCommand(`playsound ui.toast.challenge_complete ${targetPlayer.name}`);
-                            console.log("Played ui.toast.challenge_complete sound for bow or sword drop");
+                            dimension.runCommand(`playsound random.levelup ${targetPlayer.name}`);
+                            console.log("Played random.levelup sound for bow or sword drop");
                         }, 20);
                     } else {
                         targetPlayer.sendMessage(`村人から§l§d${bowOrSwordItemName}§r§fがドロップしました。`);
                         console.log(`Sent bow or sword drop message to ${targetPlayer.name}`);
-                        dimension.runCommand(`playsound ui.toast.challenge_complete ${targetPlayer.name}`);
-                        console.log("Played ui.toast.challenge_complete sound for bow or sword drop");
+                        dimension.runCommand(`playsound random.levelup ${targetPlayer.name}`);
+                        console.log("Played random.levelup sound for bow or sword drop");
                     }
                 }
 
@@ -472,14 +472,14 @@ world.afterEvents.entityDie.subscribe((eventData) => {
                         system.runTimeout(() => {
                             targetPlayer.sendMessage(`村人から§l§g${armorMessage}§r§fがドロップしました。`);
                             console.log(`Sent mythic armor drop message to ${targetPlayer.name}`);
-                            dimension.runCommand(`playsound ui.toast.challenge_complete ${targetPlayer.name}`);
-                            console.log("Played ui.toast.challenge_complete sound for mythic armor drop");
+                            dimension.runCommand(`playsound random.levelup ${targetPlayer.name}`);
+                            console.log("Played random.levelup sound for mythic armor drop");
                         }, 20);
                     } else {
                         targetPlayer.sendMessage(`村人から§l§g${armorMessage}§r§fがドロップしました。`);
                         console.log(`Sent mythic armor drop message to ${targetPlayer.name}`);
-                        dimension.runCommand(`playsound ui.toast.challenge_complete ${targetPlayer.name}`);
-                        console.log("Played ui.toast.challenge_complete sound for mythic armor drop");
+                        dimension.runCommand(`playsound random.levelup ${targetPlayer.name}`);
+                        console.log("Played random.levelup sound for mythic armor drop");
                     }
                 }
 
@@ -500,14 +500,14 @@ world.afterEvents.entityDie.subscribe((eventData) => {
                         system.runTimeout(() => {
                             targetPlayer.sendMessage(`村人から§l§g${mythicBoxItemName}§r§fがドロップしました。`);
                             console.log(`Sent mythic box drop message to ${targetPlayer.name}`);
-                            dimension.runCommand(`playsound ui.toast.challenge_complete ${targetPlayer.name}`);
-                            console.log("Played ui.toast.challenge_complete sound for mythic box drop");
+                            dimension.runCommand(`playsound random.levelup ${targetPlayer.name}`);
+                            console.log("Played random.levelup sound for mythic box drop");
                         }, 20);
                     } else {
                         targetPlayer.sendMessage(`村人から§l§g${mythicBoxItemName}§r§fがドロップしました。`);
                         console.log(`Sent mythic box drop message to ${targetPlayer.name}`);
-                        dimension.runCommand(`playsound ui.toast.challenge_complete ${targetPlayer.name}`);
-                        console.log("Played ui.toast.challenge_complete sound for mythic box drop");
+                        dimension.runCommand(`playsound random.levelup ${targetPlayer.name}`);
+                        console.log("Played random.levelup sound for mythic box drop");
                     }
                 }
 
