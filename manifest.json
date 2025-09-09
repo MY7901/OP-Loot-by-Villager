@@ -1,40 +1,36 @@
 {
- "format_version": 2,
-	"metadata": {
-		"authors": [
-			"@MY7901"
-		],
-		"generated_with": {
-			"bridge": [
-				"2.7.42"
-			],
-			"dash": [
-				"0.11.7"
-			]
-		}
-	},
-    "header": {
-        "name": "§l§gOP Loot by Villager 配布版§r§f",
-        "description": "§lVer.1.2.1§r§f\n§l§6村人が最強アイテムをドロップします。§r§f\n§l§aCreated by @MY7901 for YouTube§r§f",
-        "uuid": "d4cda9b0-bdbb-40de-b40b-4ef0975bb501",
-        "version": [1, 2, 1],
-        "min_engine_version": [ 1, 21, 50 ]
-    },
-    "modules": [
-        {
-            "description": "OP Loot by Villager 配布版 modules",
-            "type": "script",
-            "language": "javascript",
-            "uuid": "93fce746-cbdc-42bf-bea6-b847d10b8a14",
-            "entry": "scripts/main.js",
-            "version": [1, 2, 1]
-        }
+  "format_version": 2,
+  "header": {
+    "name": "§l§gOP Loot by Villager 配布版§r§f",
+    "description": "§lVer.1.3§r§f\n§l§6村人が最強アイテムをドロップします。§r§f\n§l§a実績獲得可能§r§f\n§l§6「/ma:olbv_settings baby_drop/bd_aap/nbt_drop false/true」、「/ma:olbv_info」、「/ma:olbv_help」を追加しました。\n§l§6baby_dropでは、子ども村人がドロップするかを設定できます(デフォルトはtrueでドロップする)、bd_aapはbaby_dropの設定をプレイヤーごとにするかワールドごとにするかを設定できます(デフォルトはtrueでプレイヤーごと)、nbt_dropは最強のアイテムの入ったシュルカーボックス、最強の防具がドロップするかを設定できます(デフォルトはtrueでドロップする)、それぞれのコマンドはfalseかtrueを省略すると、そのコマンドの現在の設定を確認できます§r§f\n「/ma:olbv_info」は、全てのコマンドの現在の設定を確認できます\n「/ma:olbv_help」は、コマンドの構文を確認できます\n§l§aCreated by @MY7901 on YouTube§r§f",
+    "version": [1, 3, 0],
+    "uuid": "b3bf6564-53cf-4c8d-a2f1-36b63ca096db",
+    "min_engine_version": [1, 21, 100]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "description": "OP Loot by Villager 配布版 modules",
+      "version": [1, 3, 0],
+      "uuid": "5fa525ca-9fc5-4978-b738-bf1f74fda005",
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "MY7901"
     ],
-    "capabilities": [ "script_eval" ],
-    "dependencies": [
-        {
-            "module_name": "@minecraft/server",
-            "version": "1.16.0"
-        }
-    ]
+    "product_type": "addon",
+    "url": "https://youtube.com/@my7901",
+    "generated_with": {
+      "TokaTools-Manifest-Generator": ["1.8.0"]
+    }
+  }
 }
